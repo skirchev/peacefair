@@ -8,5 +8,7 @@ Build and Install:
 4.use tools in /usr/local/energy/
 
 Typical usage:
+
 /usr/local/energy/energy_write -c power -a 192.168.1.1
+
 /usr/local/energy/energy_read
