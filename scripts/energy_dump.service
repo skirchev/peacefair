@@ -1,0 +1,11 @@
+[Unit]
+Description=PEACEFAIR Data dumper
+
+[Service]
+Type=simple
+ExecStart=/usr/local/energy/energy_dump
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
+

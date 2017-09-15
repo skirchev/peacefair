@@ -1,0 +1,13 @@
+[Unit]
+Description=PEACEFAIR Communicator
+Wants=mosquitto.service
+After=mosquitto.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/energy/energy_com
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
+
